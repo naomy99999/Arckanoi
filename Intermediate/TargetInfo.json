@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Arkanoi",
+			"Path": "D:\\SIS_457\\Arkanoi\\Arkanoi\\Source\\Arkanoi.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ArkanoiEditor",
+			"Path": "D:\\SIS_457\\Arkanoi\\Arkanoi\\Source\\ArkanoiEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

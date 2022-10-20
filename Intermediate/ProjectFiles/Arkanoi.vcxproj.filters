@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Arkanoi.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{54DA59E9-98CE-4D62-8058-C540F875C7D7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Arkanoi.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ArkanoiEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8561137E-A3BD-4D23-8AA7-51F15A1462B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Arkanoi">
+      <UniqueIdentifier>{12A71273-9EB2-4EBC-B745-798515C73D68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Arkanoi\Arkanoi.Build.cs">
+      <Filter>Source\Arkanoi</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Arkanoi\Arkanoi.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\Arkanoi.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\ArkanoiGameModeBase.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\ArkanoiGameModeBase.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\Ball.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\Ball.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\Brik.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\Brik.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\Paddle.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\Paddle.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\PaddlePlayerController.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\PaddlePlayerController.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

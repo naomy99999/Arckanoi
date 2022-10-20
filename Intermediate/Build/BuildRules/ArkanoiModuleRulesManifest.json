@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\SIS_457\\Arkanoi\\Arkanoi\\Source\\Arkanoi\\Arkanoi.Build.cs",
+		"D:\\SIS_457\\Arkanoi\\Arkanoi\\Source\\Arkanoi.Target.cs",
+		"D:\\SIS_457\\Arkanoi\\Arkanoi\\Source\\ArkanoiEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
