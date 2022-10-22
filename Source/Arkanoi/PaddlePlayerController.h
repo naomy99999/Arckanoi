@@ -17,7 +17,7 @@ class ARKANOI_API APaddlePlayerController : public APlayerController
 		APaddlePlayerController();
 
 	UFUNCTION()
-		virtual void SetupInputComponent() override;
+		virtual void SetupInputComponent();
 
 protected:
 
@@ -31,9 +31,9 @@ protected:
 	FActorSpawnParameters SpawnInfo;
 
 
-	virtual void BeginPlay() override;
+	virtual void BeginPlay();
 	void MoveHorizontal(float AxisValue);
-	void Lanch();
+	void Launch();
 
 
 public:

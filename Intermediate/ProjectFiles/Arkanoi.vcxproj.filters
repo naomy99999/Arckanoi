@@ -50,12 +50,6 @@
     <ClInclude Include="..\..\Source\Arkanoi\Ball.h">
       <Filter>Source\Arkanoi</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Arkanoi\Brik.cpp">
-      <Filter>Source\Arkanoi</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Arkanoi\Brik.h">
-      <Filter>Source\Arkanoi</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\Arkanoi\Paddle.cpp">
       <Filter>Source\Arkanoi</Filter>
     </ClCompile>

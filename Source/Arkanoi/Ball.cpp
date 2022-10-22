@@ -29,20 +29,16 @@ ABall::ABall()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 
 }
-void ABall::Lauch()
+void ABall::Launch()
 {
 	if (!BallLaunched) {
 		SM_Ball->AddImpulse(FVector(140.0f, 0.0f, 130.0f), FName(), true);
 		BallLaunched = true;
-
-
 	}
 }
 UStaticMeshComponent* ABall::GetBall()
 {
 	return SM_Ball;
-
-	//return nullptr;
 }
 // Called when the game starts or when spawned
 void ABall::BeginPlay()

@@ -1,5 +1,4 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -26,11 +25,11 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UFloatingPawnMovement* FloatingMovement;
 
-	virtual void BeginPlay() override;
+	virtual void BeginPlay();
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime);
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

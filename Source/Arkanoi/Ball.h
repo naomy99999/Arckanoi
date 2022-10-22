@@ -1,7 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
-
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Ball.generated.h"
@@ -18,13 +16,13 @@ public:
 	ABall();
 
 	// Sets default values for this actor's properties
-	virtual void Lauch();
+	virtual void Launch();
 	bool BallLaunched;
-
+	
 
 protected:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	virtual void BeginPlay();
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UStaticMeshComponent* SM_Ball;
 
@@ -32,10 +30,10 @@ protected:
 		UProjectileMovementComponent* ProjectileMovement;
 
 
-
+	
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime);
 
 	UFUNCTION()
 		UStaticMeshComponent* GetBall();

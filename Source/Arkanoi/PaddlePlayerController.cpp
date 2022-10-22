@@ -15,15 +15,15 @@ APaddlePlayerController::APaddlePlayerController()
 		Super::SetupInputComponent();
 		EnableInput(this);
 
-		InputComponent->BindAction("Lanch", IE_Pressed, this, &APaddlePlayerController::Lanch);
+		InputComponent->BindAction("Lanch", IE_Pressed, this, &APaddlePlayerController::Launch);
 
 		InputComponent->BindAxis("MoveHorizontal", this, &APaddlePlayerController::MoveHorizontal);
 
 	}
 
-	void APaddlePlayerController::Lanch()
+	void APaddlePlayerController::Launch()
 	{
-		MyBall->Lauch();
+		MyBall->Launch();
 
 	}
 

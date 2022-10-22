@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARKANOI_Paddle_generated_h
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_SPARSE_DATA
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_RPC_WRAPPERS
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_INCLASS_NO_PURE_DECLS \
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_SPARSE_DATA
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_RPC_WRAPPERS
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPaddle(); \
 	friend struct Z_Construct_UClass_APaddle_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APaddle)
 
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_INCLASS \
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAPaddle(); \
 	friend struct Z_Construct_UClass_APaddle_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APaddle)
 
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_STANDARD_CONSTRUCTORS \
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APaddle(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APaddle) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_ENHANCED_CONSTRUCTORS \
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APaddle(APaddle&&); \
@@ -58,32 +58,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APaddle)
 
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_PRIVATE_PROPERTY_OFFSET \
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SM_Paddle() { return STRUCT_OFFSET(APaddle, SM_Paddle); } \
 	FORCEINLINE static uint32 __PPO__FloatingMovement() { return STRUCT_OFFSET(APaddle, FloatingMovement); }
 
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_10_PROLOG
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_GENERATED_BODY_LEGACY \
+#define Arkanoi_Source_Arkanoi_Paddle_h_9_PROLOG
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_PRIVATE_PROPERTY_OFFSET \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_SPARSE_DATA \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_RPC_WRAPPERS \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_INCLASS \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_STANDARD_CONSTRUCTORS \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_PRIVATE_PROPERTY_OFFSET \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_SPARSE_DATA \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_RPC_WRAPPERS \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_INCLASS \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Arkanoi_Source_Arkanoi_Paddle_h_13_GENERATED_BODY \
+#define Arkanoi_Source_Arkanoi_Paddle_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_PRIVATE_PROPERTY_OFFSET \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_SPARSE_DATA \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_INCLASS_NO_PURE_DECLS \
-	Arkanoi_Source_Arkanoi_Paddle_h_13_ENHANCED_CONSTRUCTORS \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_PRIVATE_PROPERTY_OFFSET \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_SPARSE_DATA \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_INCLASS_NO_PURE_DECLS \
+	Arkanoi_Source_Arkanoi_Paddle_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
