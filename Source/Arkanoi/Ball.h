@@ -18,11 +18,11 @@ public:
 	// Sets default values for this actor's properties
 	virtual void Launch();
 	bool BallLaunched;
-	
+	virtual void BeginPlay();
+
 
 protected:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay();
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UStaticMeshComponent* SM_Ball;
 

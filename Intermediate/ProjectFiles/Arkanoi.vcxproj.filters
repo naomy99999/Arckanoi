@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Arkanoi.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{54DA59E9-98CE-4D62-8058-C540F875C7D7}</UniqueIdentifier>
+      <UniqueIdentifier>{8A370026-8D6C-44A1-B3E5-60938934858C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Arkanoi.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\ArkanoiEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8561137E-A3BD-4D23-8AA7-51F15A1462B7}</UniqueIdentifier>
+      <UniqueIdentifier>{6CDE7190-85C2-4AC5-A9F8-B5C5AD7A186A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Arkanoi">
-      <UniqueIdentifier>{12A71273-9EB2-4EBC-B745-798515C73D68}</UniqueIdentifier>
+      <UniqueIdentifier>{A63B5D74-443C-468B-B992-D0BAB7ECA107}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Arkanoi\Arkanoi.Build.cs">
       <Filter>Source\Arkanoi</Filter>
@@ -48,6 +51,18 @@
       <Filter>Source\Arkanoi</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Arkanoi\Ball.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\BallBound.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\BallBound.h">
+      <Filter>Source\Arkanoi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arkanoi\Brick.cpp">
+      <Filter>Source\Arkanoi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arkanoi\Brick.h">
       <Filter>Source\Arkanoi</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Arkanoi\Paddle.cpp">

@@ -114,8 +114,10 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABall_Statics::NewProp_SM_Ball_MetaData[] = {
 		{ "Category", "Ball" },
+		{ "Comment", "// Called when the game starts or when spawned\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Ball.h" },
+		{ "ToolTip", "Called when the game starts or when spawned" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABall_Statics::NewProp_SM_Ball = { "SM_Ball", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABall, SM_Ball), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABall_Statics::NewProp_SM_Ball_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABall_Statics::NewProp_SM_Ball_MetaData)) };
@@ -158,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABall, 1947342656);
+	IMPLEMENT_CLASS(ABall, 3716797539);
 	template<> ARKANOI_API UClass* StaticClass<ABall>()
 	{
 		return ABall::StaticClass();

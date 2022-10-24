@@ -15,7 +15,7 @@ APaddlePlayerController::APaddlePlayerController()
 		Super::SetupInputComponent();
 		EnableInput(this);
 
-		InputComponent->BindAction("Lanch", IE_Pressed, this, &APaddlePlayerController::Launch);
+		InputComponent->BindAction("Launch", IE_Pressed, this, &APaddlePlayerController::Launch);
 
 		InputComponent->BindAxis("MoveHorizontal", this, &APaddlePlayerController::MoveHorizontal);
 
