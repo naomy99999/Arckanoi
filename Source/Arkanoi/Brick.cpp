@@ -3,6 +3,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "Ball.h"
+#include "Math/Vector.h"
 
 
 // Sets default values
@@ -11,8 +12,11 @@ ABrick::ABrick()
 	SM_Brick = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Brick"));
 	SM_Brick->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
+
 	BoxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collision"));
 	BoxCollision->SetBoxExtent(FVector(25.0f, 10.0f, 10.0f));
+	BoxCollision->SetBoxExtent(FVector(25.0f, 10.0f, 10.0f));
+
 
 	RootComponent = BoxCollision;
 

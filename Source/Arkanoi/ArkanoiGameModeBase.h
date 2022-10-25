@@ -7,6 +7,7 @@
 #include "ArkanoiGameModeBase.generated.h"
 
 
+
 /**
  * 
  */
@@ -21,4 +22,13 @@ public:
 	ABrick* ladrillo1;
 	ABrick* ladrillo2;
 	ABrick* ladrillo3;
+	ABrick* ladrillo4;
+	ABrick* ladrillo5;
+	ABrick* ladrillo6;
+	ABrick* ladrillo7;
+	ABrick* ladrillo8;
+	ABrick* ladrillo9;
+	ABrick* ladrillo10;
+
+
 };

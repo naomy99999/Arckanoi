@@ -40,3 +40,5 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.3162
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
 D:\SIS_457\Arkanoi\Arkanoi\Source\Arkanoi\Brick.h
 D:\SIS_457\Arkanoi\Arkanoi\Intermediate\Build\Win64\UE4Editor\Inc\Arkanoi\Brick.generated.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\map
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\xtree

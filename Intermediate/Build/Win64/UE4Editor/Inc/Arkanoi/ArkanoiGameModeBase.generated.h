@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARKANOI_ArkanoiGameModeBase_generated_h
 
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_SPARSE_DATA
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_RPC_WRAPPERS
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_INCLASS_NO_PURE_DECLS \
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_SPARSE_DATA
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_RPC_WRAPPERS
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArkanoiGameModeBase(); \
 	friend struct Z_Construct_UClass_AArkanoiGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AArkanoiGameModeBase)
 
 
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_INCLASS \
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAArkanoiGameModeBase(); \
 	friend struct Z_Construct_UClass_AArkanoiGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AArkanoiGameModeBase)
 
 
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_STANDARD_CONSTRUCTORS \
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArkanoiGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArkanoiGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_ENHANCED_CONSTRUCTORS \
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArkanoiGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArkanoiGameModeBase)
 
 
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_14_PROLOG
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_GENERATED_BODY_LEGACY \
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_PRIVATE_PROPERTY_OFFSET
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_15_PROLOG
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_SPARSE_DATA \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_RPC_WRAPPERS \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_INCLASS \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_STANDARD_CONSTRUCTORS \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_SPARSE_DATA \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_RPC_WRAPPERS \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_INCLASS \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_GENERATED_BODY \
+#define Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_SPARSE_DATA \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_INCLASS_NO_PURE_DECLS \
-	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_17_ENHANCED_CONSTRUCTORS \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_SPARSE_DATA \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_INCLASS_NO_PURE_DECLS \
+	Arkanoi_Source_Arkanoi_ArkanoiGameModeBase_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
